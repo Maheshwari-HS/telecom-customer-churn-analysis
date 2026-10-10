@@ -46,6 +46,7 @@ Python (pandas, scikit-learn, XGBoost, SHAP, matplotlib), SQL (SQLite), Power BI
 - Results show association, not cause.
 - Risk scores are a ranking, not exact probabilities, because the models were weighted toward catching churners.
 - The business impact figures depend on assumptions.
+- Risk scores were calculated on all customers, including those used to train the model, so the churn rate inside the "High" band is optimistic.
 
 ## Data source
 Telco Customer Churn dataset on Kaggle.
